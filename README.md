@@ -14,9 +14,8 @@
     <Section>Firebase Configuration</Section>
   </TableOfContents>
 
-  <Overview>
+  ### Overview
     <Text>SayIt provides a cross-platform solution for user authentication with Firebase. Users can register and log in securely with Firebase, using the app's simple, intuitive interface built with .NET MAUI.</Text>
-  </Overview>
 
   <Features>
     <Feature>
