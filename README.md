@@ -5,17 +5,16 @@
     <Version>1.0</Version>
   </AppInfo>
 
-  <TableOfContents>
-    <Section>Overview</Section>
-    <Section>Features</Section>
-    <Section>Tech Stack</Section>
-    <Section>Setup and Installation</Section>
-    <Section>Usage</Section>
-    <Section>Firebase Configuration</Section>
-  </TableOfContents>
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
 
   ### Overview
-    <Text>SayIt provides a cross-platform solution for user authentication with Firebase. Users can register and log in securely with Firebase, using the app's simple, intuitive interface built with .NET MAUI.</Text>
+    SayIt provides a cross-platform solution for user authentication with Firebase. Users can register and log in securely with Firebase, using the app's simple, intuitive interface built with .NET MAUI.
 
   <Features>
     <Feature>
