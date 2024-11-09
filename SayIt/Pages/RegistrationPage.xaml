@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SayIt.Pages.RegistrationPage"
+             Title="Register">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="100"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot mascot" />
+
+            <Label
+                Text="Register"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label
+                Text="Create your account."
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2" />
+
+            <!-- Bindings for Email, Password, and Confirm Password -->
+            <Entry
+                Text="{Binding Email}"
+                Placeholder="Enter your email"
+                SemanticProperties.Description="Email input field"
+                Keyboard="Email"
+                HorizontalOptions="Fill" />
+
+            <Entry
+                Text="{Binding Password}"
+                Placeholder="Enter your password"
+                IsPassword="True"
+                SemanticProperties.Description="Password input field"
+                Keyboard="Text"
+                HorizontalOptions="Fill" />
+
+            <Entry
+                Text="{Binding ConfirmPassword}"
+                Placeholder="Confirm your password"
+                IsPassword="True"
+                SemanticProperties.Description="Confirm password input field"
+                Keyboard="Text"
+                HorizontalOptions="Fill" />
+
+            <!-- Register Button -->
+            <Button
+                x:Name="RegisterBtn"
+                Text="Register"
+                SemanticProperties.Hint="Registers a new user"
+                Clicked="OnRegisterClicked"
+                HorizontalOptions="Fill" />
+
+            <!-- Back to Login Link -->
+            <Label
+                Text="Already have an account? Login here."
+                TextColor="Blue"
+                HorizontalOptions="Center"
+                VerticalOptions="End">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="OnLoginTapped" />
+                </Label.GestureRecognizers>
+            </Label>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
