@@ -1,6 +1,6 @@
 ### ProjectDocumentation
+#### AppInfo
   <AppInfo>
-    <AppName>SayIt</AppName>
     <Description>SayIt is a .NET MAUI cross-platform app that provides basic user authentication using Firebase. The app currently includes functionality for user registration, login, and basic navigation between pages.</Description>
     <Version>1.0</Version>
   </AppInfo>
