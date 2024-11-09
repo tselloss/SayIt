@@ -1,1 +1,0 @@
-C:\Users\karac\source\repos\SayIt-App\SayIt\SayIt.csproj;x64
